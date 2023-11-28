@@ -1,50 +1,39 @@
-# jekyll-theme-papercss
+# Jekyll PaperCSS
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+[![Licensed under MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![GitHub Actions status](https://github.com/joeljuca/jekyll-theme-papercss/actions/workflows/main.yml/badge.svg)](https://github.com/joeljuca/jekyll-theme-papercss/actions/workflows/main.yml)
+[![Follow Joel Jucá on Twitter](https://img.shields.io/twitter/follow/holyshtjoe "Follow Joel Jucá on Twitter")](https://twitter.com/holyshtjoe "Follow Joel Jucá on Twitter")
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+**PaperCSS-based Jekyll theme**
 
-TODO: Delete this and the text above, and describe your gem
+## Setup
 
-## Installation
-
-Add this line to your Jekyll site's `Gemfile`:
+Add the line below yo your Jekyll site's `Gemfile`:
 
 ```ruby
 gem "jekyll-theme-papercss"
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+Then, set it as your Jekyll site's theme in `_config.yml`:
 
 ```yaml
 theme: jekyll-theme-papercss
 ```
 
-And then execute:
+Then, run:
 
-    $ bundle
+```
+$ bundle
+```
 
-Or install it yourself as:
+That's it, you should be good to go.
 
-    $ gem install jekyll-theme-papercss
-
-## Usage
-
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
-
+<!--
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/jekyll-theme-papercss. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `jekyll-theme-papercss.gemspec` accordingly.
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+-->
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+&copy; 2023 Joel Jucá. Licensed under [MIT](LICENSE.txt)
