@@ -1,0 +1,11 @@
+{
+  "name": "jekyll-theme-papercss",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "extract": "cp -R node_modules/papercss/dist/* assets"
+  },
+  "dependencies": {
+    "papercss": "^1.9.2"
+  }
+}
