@@ -4,7 +4,8 @@ setup:
 	make build
 
 build:
-	bundler install && jekyll build
+	bundler install && \
+	bundle exec jekyll build
 
 run:
 	jekyll serve
