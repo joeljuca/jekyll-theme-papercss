@@ -28,11 +28,9 @@ $ bundle
 
 That's it, you should be good to go.
 
-<!--
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
--->
 
 ## License
 
